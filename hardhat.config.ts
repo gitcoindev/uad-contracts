@@ -1,12 +1,8 @@
 import "@nomiclabs/hardhat-etherscan";
-import "@nomiclabs/hardhat-waffle";
+import "@nomicfoundation/hardhat-toolbox";
 import * as dotenv from "dotenv";
 import "hardhat-deploy";
-import "hardhat-deploy-ethers";
-import "hardhat-gas-reporter";
-import "hardhat-typechain";
 import { HardhatUserConfig } from "hardhat/config";
-import "solidity-coverage";
 import fs from "fs";
 import path from "path";
 
