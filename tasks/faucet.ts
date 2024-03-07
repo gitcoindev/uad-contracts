@@ -1,5 +1,5 @@
 import { task } from "hardhat/config";
-import "@nomiclabs/hardhat-waffle";
+import "@nomicfoundation/hardhat-toolbox";
 import { BigNumber } from "ethers";
 import { ERC1155Ubiquity, ERC20 } from "../artifacts/types";
 import { UbiquityAlgorithmicDollarManager } from "../artifacts/types/UbiquityAlgorithmicDollarManager";

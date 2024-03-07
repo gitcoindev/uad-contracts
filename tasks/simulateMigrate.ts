@@ -5,7 +5,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 
 import { task } from "hardhat/config";
-import "@nomiclabs/hardhat-waffle";
+import "@nomicfoundation/hardhat-toolbox";
 import { expect } from "chai";
 import { BigNumber, Signer } from "ethers";
 

@@ -1,5 +1,5 @@
 import { task } from "hardhat/config";
-import "@nomiclabs/hardhat-waffle";
+import "@nomicfoundation/hardhat-toolbox";
 import { BigNumber } from "ethers";
 import {
   ChainId,

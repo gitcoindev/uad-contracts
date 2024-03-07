@@ -1,5 +1,5 @@
 import { task, types } from "hardhat/config";
-import "@nomiclabs/hardhat-waffle";
+import "@nomicfoundation/hardhat-toolbox";
 import { Signer } from "ethers";
 
 import { ICurveFactory } from "../artifacts/types/ICurveFactory";

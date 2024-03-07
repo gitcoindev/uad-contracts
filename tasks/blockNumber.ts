@@ -1,5 +1,5 @@
 import { task } from "hardhat/config";
-import "@nomiclabs/hardhat-waffle";
+import "@nomicfoundation/hardhat-toolbox";
 
 task("blockNumber", "Prints the current block number").setAction(
   async (_taskArgs, { ethers }) => {

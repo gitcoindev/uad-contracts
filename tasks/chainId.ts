@@ -1,5 +1,5 @@
 import { task } from "hardhat/config";
-import "@nomiclabs/hardhat-waffle";
+import "@nomicfoundation/hardhat-toolbox";
 
 task("chainId", "Prints the current chain ID").setAction(
   async (_taskArgs, { ethers }) => {
