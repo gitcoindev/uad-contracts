@@ -23,5 +23,6 @@ import "./adminRemoveLiquidity";
 import "./excessDollarDistribution";
 import "./revoke";
 import "./simulateMigrate";
+import "./simulateStakingMultiplierFix";
 import "./priceReset";
 import "./deployYieldProxyLocally";
